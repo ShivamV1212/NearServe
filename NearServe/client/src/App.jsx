@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import UserDashboard from './pages/UserDashboard';
 import ProviderDashboard from './pages/ProviderDashboard';
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/dashboard/user" element={<UserDashboard />} />
           <Route path="/dashboard/provider" element={<ProviderDashboard />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </AuthProvider>
   );
