@@ -1,0 +1,10 @@
+.services-page { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.services-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.services-header h1 { font-size: 1.8rem; font-weight: 800; }
+.search-input { padding: 0.7rem 1.2rem; border: 2px solid #e5e7eb; border-radius: 10px; font-size: 1rem; width: 280px; outline: none; }
+.search-input:focus { border-color: #1a56db; }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 2rem; }
+.filter-btn { padding: 0.45rem 1rem; border: 2px solid #e5e7eb; border-radius: 99px; background: #fff; cursor: pointer; font-size: 0.88rem; font-weight: 500; }
+.filter-btn.active, .filter-btn:hover { border-color: #1a56db; color: #1a56db; background: #eff6ff; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.4rem; }
+.loading, .empty { text-align: center; padding: 4rem; color: #6b7280; font-size: 1.1rem; }

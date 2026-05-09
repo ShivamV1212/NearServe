@@ -1,0 +1,41 @@
+.service-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.4rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #f0f0f0;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(26,86,219,0.12);
+}
+.card-category {
+  font-size: 0.8rem;
+  color: #1a56db;
+  font-weight: 600;
+  background: #eff6ff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 99px;
+  width: fit-content;
+}
+.card-title { font-size: 1.1rem; font-weight: 700; color: #111827; margin: 0; }
+.card-provider, .card-location { font-size: 0.85rem; color: #6b7280; margin: 0; }
+.card-desc { font-size: 0.88rem; color: #4b5563; flex: 1; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; }
+.card-price { font-size: 1.15rem; font-weight: 800; color: #1a56db; }
+.card-rating { font-size: 0.82rem; color: #6b7280; }
+.card-btn {
+  background: #1a56db;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: background 0.2s;
+}
+.card-btn:hover { background: #1e40af; }

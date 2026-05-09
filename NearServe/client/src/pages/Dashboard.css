@@ -1,0 +1,33 @@
+.dashboard { max-width: 900px; margin: 2rem auto; padding: 0 2rem; }
+.dashboard-header { margin-bottom: 2rem; }
+.dashboard-header h1 { font-size: 1.8rem; font-weight: 800; }
+.dashboard-header p { color: #6b7280; }
+.dashboard h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+.empty-state { text-align: center; padding: 3rem; color: #6b7280; }
+.empty-state a { color: #1a56db; font-weight: 600; }
+
+.tabs { display: flex; gap: 0.5rem; margin-bottom: 2rem; }
+.tab-btn { padding: 0.6rem 1.2rem; border: 2px solid #e5e7eb; border-radius: 10px; background: #fff; cursor: pointer; font-weight: 600; font-size: 0.9rem; }
+.tab-btn.active { border-color: #1a56db; color: #1a56db; background: #eff6ff; }
+
+.bookings-list { display: flex; flex-direction: column; gap: 1rem; }
+.booking-card { background: #fff; border-radius: 12px; padding: 1.4rem; box-shadow: 0 2px 10px rgba(0,0,0,0.07); display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+.booking-info h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.3rem; }
+.booking-info p { font-size: 0.88rem; color: #6b7280; margin: 0.2rem 0; }
+.booking-status { padding: 0.4rem 0.9rem; border-radius: 99px; font-size: 0.78rem; font-weight: 700; }
+.booking-actions { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-end; }
+.booking-actions select { padding: 0.4rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 0.85rem; cursor: pointer; }
+
+.services-list { display: flex; flex-direction: column; gap: 0.8rem; }
+.service-row { background: #fff; border-radius: 10px; padding: 1rem 1.4rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+.row-cat { background: #eff6ff; color: #1a56db; font-size: 0.78rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 99px; margin-left: 0.8rem; }
+.row-right { display: flex; align-items: center; gap: 1rem; }
+.row-price { font-weight: 700; color: #1a56db; font-size: 1.05rem; }
+.del-btn { background: #fef2f2; color: #dc2626; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.85rem; }
+
+.add-service-form { background: #fff; border-radius: 16px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.08); max-width: 560px; }
+.add-service-form h2 { margin-bottom: 1.5rem; font-size: 1.3rem; }
+.add-service-form input, .add-service-form select, .add-service-form textarea { display: block; width: 100%; padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; margin-bottom: 1rem; font-size: 0.95rem; box-sizing: border-box; }
+.add-service-form input:focus, .add-service-form select:focus, .add-service-form textarea:focus { border-color: #1a56db; outline: none; }
+.add-service-form button { background: #1a56db; color: #fff; border: none; padding: 0.9rem 2rem; border-radius: 10px; font-weight: 700; font-size: 1rem; cursor: pointer; }
+.form-msg { padding: 0.8rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; background: #f0fdf4; color: #16a34a; }

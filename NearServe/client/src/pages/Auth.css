@@ -1,0 +1,15 @@
+.auth-page { min-height: 80vh; display: flex; align-items: center; justify-content: center; background: #f9fafb; padding: 2rem; }
+.auth-card { background: #fff; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.1); width: 100%; max-width: 440px; }
+.auth-card h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.3rem; }
+.auth-sub { color: #6b7280; margin-bottom: 1.5rem; }
+.auth-error { background: #fef2f2; color: #dc2626; padding: 0.8rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; }
+.auth-card form input { display: block; width: 100%; padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; margin-bottom: 1rem; font-size: 1rem; box-sizing: border-box; }
+.auth-card form input:focus { border-color: #1a56db; outline: none; }
+.auth-card form button { width: 100%; background: #1a56db; color: #fff; border: none; padding: 0.9rem; border-radius: 10px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 0.5rem; }
+.auth-card form button:hover { background: #1e40af; }
+.auth-switch { text-align: center; margin-top: 1.2rem; color: #6b7280; font-size: 0.95rem; }
+.auth-switch a { color: #1a56db; font-weight: 600; }
+.role-selector { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-bottom: 1rem; }
+.role-opt { display: flex; align-items: center; gap: 0.5rem; padding: 0.8rem; border: 2px solid #e5e7eb; border-radius: 10px; cursor: pointer; font-weight: 600; font-size: 0.9rem; }
+.role-opt.selected { border-color: #1a56db; background: #eff6ff; color: #1a56db; }
+.role-opt input { display: none; }
